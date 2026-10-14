@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "PY_BALLISTICCALC_PRIOR_DOCS",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.py_ballisticcalc_prior_docs",
+      "category": "DeveloperTool",
+      "shortDescription": "PY_BALLISTICCALC_PRIOR_DOCS \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for PY_BALLISTICCALC_PRIOR_DOCS, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "PY_BALLISTICCALC_PRIOR_DOCS Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
